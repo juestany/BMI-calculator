@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="lines-left"></div>
+      <div class="lines-right"></div>
+      <h2 class="title">
+        <span class="title-word title-word-1">bmi</span>
+        <span class="title-word title-word-2">calculator</span>
+      </h2>
+      <div class="form">
+        <div class="text">
+          <label>Your height [cm]</label>
+          <input type="number" id="height-number" placeholder="165" />
+
+          <label>Your weight [kg]</label>
+          <input type="number" id="weight-number" placeholder="60" />
+        </div>
+        <button class="button" id="btn">Calculate</button>
+      </div>
+      <div class="result">
+        Your result:
+        <h2>lorem</h2>
+        <img src="./image.png" alt="BMI scale" />
+        <h5>
+          Your result suggests you are
+          <span>a healthy weight</span>.
+        </h5>
+        <p>
+          Chalk and cheese everyone loves hard cheese. Boursin pepper jack hard
+          cheese the big cheese mozzarella cheddar halloumi pepper jack.
+        </p>
+      </div>
+    </div>
+    <!-- javascript -->
+    <script src="app.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
